@@ -104,7 +104,6 @@ export default class ApplicationInsightsExplorerExplorerProvider implements vsco
 			timespan = d.getFullYear() + "-" + (d.getMonth() + 1) + "-" + d.getDate() + "/";
 		}
 
-		//
 		var url = 'https://api.applicationinsights.us/v1/apps/' + config.id
 			+ '/events/traces?timespan=' + timespan + "PT" + config.duration + 'H'
 			+ "&$filter=startswith(customDimensions/EventName, 'Journey Recorder')"
