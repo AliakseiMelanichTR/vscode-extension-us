@@ -1,6 +1,6 @@
 {
-    "name": "aadb2c",
-    "displayName": "Azure AD B2C",
+    "name": "aadb2c-us",
+    "displayName": "Azure AD B2C US",
     "description": "Azure AD B2C custom policy extension",
     "version": "1.3.4",
     "publisher": "AzureADB2CTools",
